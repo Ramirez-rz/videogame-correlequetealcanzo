@@ -1,0 +1,1379 @@
+Unity Editor version:    6000.3.11f1 (3000ef702840)
+Branch:                  6000.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 26.4.1 (Build 25E253)
+Darwin version:          25.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        18432 MB
+Date:                    2026-04-23T17:00:56Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-andresramirezruiz" at "2026-04-23T17:00:56.916781Z"
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/andresramirezruiz/Documents/TEC/SEMESTRE 4/UNITY/Proyectos/GAMEProject
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50445
+-licensingIpc
+LicenseClient-andresramirezruiz
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Users/andresramirezruiz/Documents/TEC/SEMESTRE 4/UNITY/Proyectos/GAMEProject
+/Users/andresramirezruiz/Documents/TEC/SEMESTRE 4/UNITY/Proyectos/GAMEProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8427100352]  Target information:
+
+Player connection [8427100352]  * "[IP] 10.43.89.226 [Port] 0 [Flags] 2 [Guid] 88092016 [EditorId] 88092016 [Version] 1048832 [Id] OSXEditor(0,Andress-MacBook-Pro-4.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8427100352] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8427100352] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.11f1 (3000ef702840)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/andresramirezruiz/Documents/TEC/SEMESTRE 4/UNITY/Proyectos/GAMEProject/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M3 Pro (high power)
+Metal devices available: 1
+0: Apple M3 Pro (high power)
+Using device Apple M3 Pro (high power)
+Initializing Metal device caps: Apple M3 Pro
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.3.11f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000343 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.0'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-andresramirezruiz"
+[Licensing::IpcConnector] LicenseClient-andresramirezruiz channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-andresramirezruiz-6000.3.11" at "2026-04-23T17:00:57.478368Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.0+23225a6
+  Session Id:              84441505bc524a4e88102270d21a6603
+  Correlation Id:          218132e9eb79e4d423ee29d1b2ad39e3
+  External correlation Id: 2444285968844241110
+  Machine Id:              c1a/dhk3vwcYbiy078+XjHvsMZ0=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-andresramirezruiz-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-andresramirezruiz-6000.3.11-notifications" at "2026-04-23T17:00:57.498055Z"
+[Licensing::Module] Licensing Background thread has ended after 0.58s
+- Loaded All Assemblies, in  0.209 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.221 seconds
+Domain Reload Profiling: 430ms
+	BeginReloadAssembly (49ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (105ms)
+		LoadAssemblies (48ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (103ms)
+			TypeCache.Refresh (102ms)
+				TypeCache.ScanAssembly (93ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (221ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (189ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (65ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[CoreBusinessMetrics] Unexpected thread when updating session info.
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674174590988-rmzyolo56-UnityProStuXXXX
+  Product: Unity Student
+  Type: Assigned
+  Expiration: 2027-03-19T05:32:21Z
+- Loaded All Assemblies, in  0.453 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.439 seconds
+Domain Reload Profiling: 892ms
+	BeginReloadAssembly (71ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (331ms)
+		LoadAssemblies (203ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (103ms)
+			BuildScriptInfoCaches (38ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (439ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (358ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (196ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launching external process: /Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6921 unused Assets / (4.0 MB). Loaded Objects now: 7752.
+Memory consumption went from 156.7 MB to 152.7 MB.
+Total: 6.150042 ms (FindLiveObjects: 0.315625 ms CreateObjectMapping: 0.138875 ms MarkObjects: 4.452584 ms  DeleteObjects: 1.242500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 272970.950986 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/GameScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6cfc3e1468d708423679761fe9a468a1') in 0.020482917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x1777d7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.420 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.408 seconds
+Domain Reload Profiling: 830ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (278ms)
+		LoadAssemblies (202ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (99ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (408ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (326ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6919 unused Assets / (3.6 MB). Loaded Objects now: 7758.
+Memory consumption went from 165.7 MB to 162.1 MB.
+Total: 6.638959 ms (FindLiveObjects: 0.363792 ms CreateObjectMapping: 0.175333 ms MarkObjects: 4.798834 ms  DeleteObjects: 1.300792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f1af000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.371 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.384 seconds
+Domain Reload Profiling: 757ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (238ms)
+		LoadAssemblies (154ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (101ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (384ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (304ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (172ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6919 unused Assets / (3.8 MB). Loaded Objects now: 7761.
+Memory consumption went from 165.5 MB to 161.7 MB.
+Total: 6.335084 ms (FindLiveObjects: 0.403875 ms CreateObjectMapping: 0.152916 ms MarkObjects: 4.615167 ms  DeleteObjects: 1.162833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f23b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.391 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.398 seconds
+Domain Reload Profiling: 791ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (259ms)
+		LoadAssemblies (172ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (103ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (398ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (315ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (187ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6919 unused Assets / (3.8 MB). Loaded Objects now: 7764.
+Memory consumption went from 165.4 MB to 161.5 MB.
+Total: 6.194375 ms (FindLiveObjects: 0.356375 ms CreateObjectMapping: 0.162667 ms MarkObjects: 4.568541 ms  DeleteObjects: 1.106250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f23b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.403 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.404 seconds
+Domain Reload Profiling: 809ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (259ms)
+		LoadAssemblies (173ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (104ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (405ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (320ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (188ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6919 unused Assets / (3.8 MB). Loaded Objects now: 7767.
+Memory consumption went from 165.2 MB to 161.4 MB.
+Total: 6.591917 ms (FindLiveObjects: 0.375042 ms CreateObjectMapping: 0.162333 ms MarkObjects: 4.674833 ms  DeleteObjects: 1.379375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f23b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.453 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.384 seconds
+Domain Reload Profiling: 839ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (274ms)
+		LoadAssemblies (191ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (104ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (384ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (304ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6920 unused Assets / (3.8 MB). Loaded Objects now: 7771.
+Memory consumption went from 165.1 MB to 161.2 MB.
+Total: 5.864542 ms (FindLiveObjects: 0.345250 ms CreateObjectMapping: 0.128208 ms MarkObjects: 4.299125 ms  DeleteObjects: 1.091792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 324.193988 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/normal-man-b.fbx
+  artifactKey: Guid(1fea9d91227e9814f869406681786d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/normal-man-b.fbx using Guid(1fea9d91227e9814f869406681786d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba085e10f1d3011aca91aa0d375afdce') in 0.437222542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 64
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/strong-man-b.fbx
+  artifactKey: Guid(9f5275d6d399fa548924eb1e4356ceea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/strong-man-b.fbx using Guid(9f5275d6d399fa548924eb1e4356ceea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55dad89d4c794d35929efafb494850af') in 0.01115575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 64
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/normal-woman-a.fbx
+  artifactKey: Guid(9cb6519e2b32c2344bb30ac086e5243d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/normal-woman-a.fbx using Guid(9cb6519e2b32c2344bb30ac086e5243d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d2ea51f03c5c7feb97d3aef44c8aa59') in 0.0105475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 64
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/strong-man-a.fbx
+  artifactKey: Guid(e333cda59afd1344aaa3c889c47776e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/strong-man-a.fbx using Guid(e333cda59afd1344aaa3c889c47776e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0e9ef7dc762d61d1bc224cfdc1105de') in 0.009495625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 64
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/normal-woman-c.fbx
+  artifactKey: Guid(65c0fe84e937cd64e9c996ac4e58144f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/normal-woman-c.fbx using Guid(65c0fe84e937cd64e9c996ac4e58144f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '932b3fe4313217d7e4a494f86feb0b84') in 0.009112292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 64
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.633133 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/Materials/palette3.mat
+  artifactKey: Guid(49e897dae1818784ca3a53274beef6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/Materials/palette3.mat using Guid(49e897dae1818784ca3a53274beef6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '258d2bea753dd892b67080cbc05eba27') in 0.02849375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/Materials/palette8.mat
+  artifactKey: Guid(deb63c3b802fe6840b1674dcf1704536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/Materials/palette8.mat using Guid(deb63c3b802fe6840b1674dcf1704536) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cbdd5ddbcee1c6603ffc818113054b2') in 0.004567875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/Materials/palette7.mat
+  artifactKey: Guid(f050b687c59d0c0499bdd4231def29e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/Materials/palette7.mat using Guid(f050b687c59d0c0499bdd4231def29e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6299c35497dee8db88e43e7909e8bbb2') in 0.004514125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.507189 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/Textures/palette3.png
+  artifactKey: Guid(22e7fb9099c29e84091fb2ddc04f20da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/Textures/palette3.png using Guid(22e7fb9099c29e84091fb2ddc04f20da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27567405ab2034d71575460ac12d66fa') in 0.00688675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/Textures/palette4.png
+  artifactKey: Guid(7370a890bdcb4884c95a7c3daeb52f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/Textures/palette4.png using Guid(7370a890bdcb4884c95a7c3daeb52f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42c2d19be325315b48748d34add4ad84') in 0.003043291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/Textures/palette6.png
+  artifactKey: Guid(2db5d9445d5e4c54e996423ba1e3b480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/Textures/palette6.png using Guid(2db5d9445d5e4c54e996423ba1e3b480) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33bb2d933ab5d5e405b9c3633f9f3ae1') in 0.003050459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.555269 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/normal man c.prefab
+  artifactKey: Guid(49121edd22c328c47a8918cf7e48e4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/normal man c.prefab using Guid(49121edd22c328c47a8918cf7e48e4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36493ad1f888f050069f1198c0a6267a') in 0.017287667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/stout woman a.prefab
+  artifactKey: Guid(94e78e2feccd9d34387a5424c6414d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/stout woman a.prefab using Guid(94e78e2feccd9d34387a5424c6414d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '459568ca4c29d48c0cdd8d3ec9a63ab2') in 0.010877875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/strong man c.prefab
+  artifactKey: Guid(65715c24c975a454cac9fb6ba576d8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/strong man c.prefab using Guid(65715c24c975a454cac9fb6ba576d8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bcce696082f4ac4be09070ee14e495f') in 0.009294875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/strong woman c.prefab
+  artifactKey: Guid(793466d81ca4b404b8fe9ec6dc657307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/strong woman c.prefab using Guid(793466d81ca4b404b8fe9ec6dc657307) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbcd83ac874bd245241d225f1e6f8555') in 0.009222542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/stout man a.prefab
+  artifactKey: Guid(7ab456b87d847a94ca9a43844bda4a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/stout man a.prefab using Guid(7ab456b87d847a94ca9a43844bda4a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '354081bf219217e714f5422e5817d81b') in 0.009399541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/strong man a.prefab
+  artifactKey: Guid(79d0c604612fad54c934936f094ec850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/strong man a.prefab using Guid(79d0c604612fad54c934936f094ec850) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7efa0ff26fad66245525de0be156c7e0') in 0.009311709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f583000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.380 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.393 seconds
+Domain Reload Profiling: 775ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (237ms)
+		LoadAssemblies (152ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (101ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (393ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (190ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6920 unused Assets / (3.7 MB). Loaded Objects now: 7841.
+Memory consumption went from 171.2 MB to 167.5 MB.
+Total: 5.880334 ms (FindLiveObjects: 0.360417 ms CreateObjectMapping: 0.133458 ms MarkObjects: 4.248958 ms  DeleteObjects: 1.137417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f583000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.363 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.381 seconds
+Domain Reload Profiling: 746ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (230ms)
+		LoadAssemblies (147ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (101ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (381ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (298ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6920 unused Assets / (3.6 MB). Loaded Objects now: 7844.
+Memory consumption went from 170.9 MB to 167.3 MB.
+Total: 6.873416 ms (FindLiveObjects: 0.412375 ms CreateObjectMapping: 0.183334 ms MarkObjects: 4.917084 ms  DeleteObjects: 1.360375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f583000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.367 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.407 seconds
+Domain Reload Profiling: 776ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (235ms)
+		LoadAssemblies (148ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (103ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (407ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (322ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (197ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6920 unused Assets / (3.6 MB). Loaded Objects now: 7847.
+Memory consumption went from 170.8 MB to 167.2 MB.
+Total: 6.887958 ms (FindLiveObjects: 0.415292 ms CreateObjectMapping: 0.163125 ms MarkObjects: 4.914041 ms  DeleteObjects: 1.395250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 349.939495 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/strong man b.prefab
+  artifactKey: Guid(4e90a33f5b1393648906ce1be40f2c30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/strong man b.prefab using Guid(4e90a33f5b1393648906ce1be40f2c30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '083a60b6956e074a877f2e3954ee3468') in 0.050459042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/normal-man-a.fbx
+  artifactKey: Guid(2165616b63aca644c8983f129c8a6fc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/normal-man-a.fbx using Guid(2165616b63aca644c8983f129c8a6fc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd03843bef496444b11a8885d6f49ff5d') in 0.01378425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/Animations/stout walk.anim
+  artifactKey: Guid(0e426ae24fbff854daa79e491ca5ebd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/Animations/stout walk.anim using Guid(0e426ae24fbff854daa79e491ca5ebd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b7526754f6b2977a6793cf66e0d4e83b') in 0.00744375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/Textures/palette6.png
+  artifactKey: Guid(2db5d9445d5e4c54e996423ba1e3b480) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/Textures/palette6.png using Guid(2db5d9445d5e4c54e996423ba1e3b480) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d9359307aa6893e45caa8c16ba8240b') in 0.018623833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/Animations/stout.controller
+  artifactKey: Guid(aa18ba140040d32439939bba79e19639) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/Animations/stout.controller using Guid(aa18ba140040d32439939bba79e19639) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '379ddd25a6334f5eec5b07b47581672b') in 0.0062135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/Textures/palette8.png
+  artifactKey: Guid(8ff0119964e079b44a42b7a0b9a89800) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/Textures/palette8.png using Guid(8ff0119964e079b44a42b7a0b9a89800) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a1232d704ec37e43fe09ecceeaae954') in 0.003562084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/normal-woman-a.fbx
+  artifactKey: Guid(9cb6519e2b32c2344bb30ac086e5243d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/normal-woman-a.fbx using Guid(9cb6519e2b32c2344bb30ac086e5243d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d26e4c6c20d0d00a2a62398bd78777e') in 0.0045305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/strong woman a.prefab
+  artifactKey: Guid(bde2ebe98386b884bb311314cf5dc4cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/strong woman a.prefab using Guid(bde2ebe98386b884bb311314cf5dc4cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'feccfb8c3a2f13bad85dcff97924bf45') in 0.007482125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/Animations/normal run.anim
+  artifactKey: Guid(e1ab9b9572579b646a261d3035e7e7e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/Animations/normal run.anim using Guid(e1ab9b9572579b646a261d3035e7e7e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b374b7db15ffe165907e3e045bf57a48') in 0.0035945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/Textures/palette9.png
+  artifactKey: Guid(da92eb1c9e114c247a97f3209eec16fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/Textures/palette9.png using Guid(da92eb1c9e114c247a97f3209eec16fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e83af3dd252f1d29d888523c00cb476e') in 0.00443625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/strong-man-b.fbx
+  artifactKey: Guid(9f5275d6d399fa548924eb1e4356ceea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/strong-man-b.fbx using Guid(9f5275d6d399fa548924eb1e4356ceea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '376e4ef45e38fab72646072f156c7925') in 0.003541166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/normal man a.prefab
+  artifactKey: Guid(3625b8aaa69cde2449bff0b4bc37913b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/normal man a.prefab using Guid(3625b8aaa69cde2449bff0b4bc37913b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ba199499597f9397167c081c96d95a9a') in 0.00874975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/Materials/palette9.mat
+  artifactKey: Guid(63cc073c21d50c8478f795b34d842527) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/Materials/palette9.mat using Guid(63cc073c21d50c8478f795b34d842527) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0e3b2d4493c5f541f690d92aac13799') in 0.008478708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/Animations/normal idle.anim
+  artifactKey: Guid(1b14bbc4776455a4893c422ae3e7067c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/Animations/normal idle.anim using Guid(1b14bbc4776455a4893c422ae3e7067c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b3d9d06f91cb5be13db74185d09929a8') in 0.003245458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Example
+  artifactKey: Guid(4e83abd961477f943a38762dce15a2d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/Example using Guid(4e83abd961477f943a38762dce15a2d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b067c2ef2298871d51e43b2232c6f332') in 0.001250375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DavidJalbert
+  artifactKey: Guid(7a4233f87ae97436d8129db689d5d0b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert using Guid(7a4233f87ae97436d8129db689d5d0b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '96682cdaf9a020f1848c81a0b8f1964a') in 0.001449542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/strong-woman-b.fbx
+  artifactKey: Guid(8192e40207e9cb146a4ec75a26d31a99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/strong-woman-b.fbx using Guid(8192e40207e9cb146a4ec75a26d31a99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd5b7251ba4585aa39ecf4423c564f8a3') in 0.004358666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/normal-woman-c.fbx
+  artifactKey: Guid(65c0fe84e937cd64e9c996ac4e58144f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/normal-woman-c.fbx using Guid(65c0fe84e937cd64e9c996ac4e58144f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6eed95587b1399fea755b71e689124b2') in 0.005306125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/normal woman c.prefab
+  artifactKey: Guid(532a2fc3185beb5458e02f15f6ed2886) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/normal woman c.prefab using Guid(532a2fc3185beb5458e02f15f6ed2886) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0cf924a7e6ed88b169ed628fda841e4f') in 0.007171583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/readme.txt
+  artifactKey: Guid(76226f73f3bde7146934793745734f39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/readme.txt using Guid(76226f73f3bde7146934793745734f39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8ccbe16c4166490d082c0c2e34bc106d') in 0.001555416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/normal woman b.prefab
+  artifactKey: Guid(12470d56d64eadc48915ac53abe53e25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/normal woman b.prefab using Guid(12470d56d64eadc48915ac53abe53e25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2238eaebc2752b3bd23ab48ad8af247b') in 0.007761125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/Materials/palette1.mat
+  artifactKey: Guid(b5196b4ed11c46f4eadd08cb98b4aba3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/Materials/palette1.mat using Guid(b5196b4ed11c46f4eadd08cb98b4aba3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c56862d58e585e8fa6b4c019b61dd57a') in 0.00252175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/stout-man-c.fbx
+  artifactKey: Guid(25c8b59e7b2a3c245947c2145611fd7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/stout-man-c.fbx using Guid(25c8b59e7b2a3c245947c2145611fd7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '369579d3a143959d4bae27f2da48c4b5') in 0.004341416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/normal woman a.prefab
+  artifactKey: Guid(8ae6f14760063a642a1231cc1984ae09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/normal woman a.prefab using Guid(8ae6f14760063a642a1231cc1984ae09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7627612ca27014da78225913eec51f49') in 0.006810333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/Animations/stout idle.anim
+  artifactKey: Guid(3c0ccfed82c24d94e910eab13f4ac2c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/Animations/stout idle.anim using Guid(3c0ccfed82c24d94e910eab13f4ac2c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e9f2386f02073013ba104ee325bb78a') in 0.003521125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/Textures/palette2.png
+  artifactKey: Guid(69a7e3dd8935eda44ac6bc53481c832c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/Textures/palette2.png using Guid(69a7e3dd8935eda44ac6bc53481c832c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ab740a923f969eeadb59ff2afa3f24e') in 0.003162708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Example/Materials
+  artifactKey: Guid(1e366234be0a91d4ca70417a0ba797db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/Example/Materials using Guid(1e366234be0a91d4ca70417a0ba797db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '899a1d45ab7dc0f5e47733b762e08e17') in 0.001296167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/strong-woman-c.fbx
+  artifactKey: Guid(fba7f43569532a64fa22cf51a342963d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/strong-woman-c.fbx using Guid(fba7f43569532a64fa22cf51a342963d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc2f7e4549bb7ee7e4f9fa880f1c8669') in 0.004437667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/Materials/palette3.mat
+  artifactKey: Guid(49e897dae1818784ca3a53274beef6d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/Materials/palette3.mat using Guid(49e897dae1818784ca3a53274beef6d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '938f7384b9e3f242b29179f7f16955df') in 0.002238834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/Textures
+  artifactKey: Guid(6c405e5555e1818438d1f80a3a09edb2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/Textures using Guid(6c405e5555e1818438d1f80a3a09edb2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a43eb940b6e184afe361a04b62dc340') in 0.001390084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/stout-man-b.fbx
+  artifactKey: Guid(0f4082164db668c46bf0846efc198b6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/stout-man-b.fbx using Guid(0f4082164db668c46bf0846efc198b6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e364d6aa52cc61ddcd04c5202feeb38') in 0.003528417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/Materials/palette8.mat
+  artifactKey: Guid(deb63c3b802fe6840b1674dcf1704536) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/Materials/palette8.mat using Guid(deb63c3b802fe6840b1674dcf1704536) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c4a5ea9e000082b0541cbc7cca67b43') in 0.002435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/stout woman a.prefab
+  artifactKey: Guid(94e78e2feccd9d34387a5424c6414d13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/stout woman a.prefab using Guid(94e78e2feccd9d34387a5424c6414d13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb985e1f0c12afd480b510d16a427ab9') in 0.007085375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/stout man a.prefab
+  artifactKey: Guid(7ab456b87d847a94ca9a43844bda4a6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/stout man a.prefab using Guid(7ab456b87d847a94ca9a43844bda4a6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6fbfb49a7897047c5dd74c3e6ae0e420') in 0.006875458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/Materials/palette7.mat
+  artifactKey: Guid(f050b687c59d0c0499bdd4231def29e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/Materials/palette7.mat using Guid(f050b687c59d0c0499bdd4231def29e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '52d105ed0c18d3afa9ddacac4a7fe3cf') in 0.00250925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/normal-woman-b.fbx
+  artifactKey: Guid(15a125bdadec28c469e2a8964e8ca130) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/normal-woman-b.fbx using Guid(15a125bdadec28c469e2a8964e8ca130) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '09f09729df6414802cc5a0eb837e31ef') in 0.003551041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/Textures/palette4.png
+  artifactKey: Guid(7370a890bdcb4884c95a7c3daeb52f55) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/Textures/palette4.png using Guid(7370a890bdcb4884c95a7c3daeb52f55) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '71e60258201fed2adff183c6f6a2eaf7') in 0.004211417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Example/Scripts/AnimationController.cs
+  artifactKey: Guid(b29575ce9830c934bbe05a3f7b011f57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/Example/Scripts/AnimationController.cs using Guid(b29575ce9830c934bbe05a3f7b011f57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2326e71204c7007d1f16ff04b40b2e8') in 0.001798084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/stout woman b.prefab
+  artifactKey: Guid(e036460edacb75b4888239cb963b79fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/stout woman b.prefab using Guid(e036460edacb75b4888239cb963b79fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a16c199b291df4aee53e9216cc15f51b') in 0.006651208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/Prefabs/Animations/strong wave.anim
+  artifactKey: Guid(a0a71ddca95e8ea47b5b74140665bc4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/Prefabs/Animations/strong wave.anim using Guid(a0a71ddca95e8ea47b5b74140665bc4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c316b179fa77b8a027baf4df31ba1868') in 0.003664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/normal-man-b.fbx
+  artifactKey: Guid(1fea9d91227e9814f869406681786d5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/normal-man-b.fbx using Guid(1fea9d91227e9814f869406681786d5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '60ccef58c62e5d46b60e9507967e0518') in 0.003690958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/DavidJalbert/LowPolyPeople/FBX/strong-man-c.fbx
+  artifactKey: Guid(63013d26f33557a41b6ca1dda069b741) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DavidJalbert/LowPolyPeople/FBX/strong-man-c.fbx using Guid(63013d26f33557a41b6ca1dda069b741) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b3e8edfcc8c088c42b1fe36c6d0e1c8') in 0.003492042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6911 unused Assets / (3.6 MB). Loaded Objects now: 7848.
+Memory consumption went from 164.0 MB to 160.4 MB.
+Total: 8.312333 ms (FindLiveObjects: 1.193292 ms CreateObjectMapping: 0.184750 ms MarkObjects: 5.603125 ms  DeleteObjects: 1.331041 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f23b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.559 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.459 seconds
+Domain Reload Profiling: 1020ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (344ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (124ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (459ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (357ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (216ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6921 unused Assets / (3.8 MB). Loaded Objects now: 7851.
+Memory consumption went from 170.6 MB to 166.7 MB.
+Total: 6.911125 ms (FindLiveObjects: 0.568708 ms CreateObjectMapping: 0.240125 ms MarkObjects: 4.922958 ms  DeleteObjects: 1.179167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f23b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.385 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.398 seconds
+Domain Reload Profiling: 786ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (105ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (399ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (312ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6921 unused Assets / (3.1 MB). Loaded Objects now: 7854.
+Memory consumption went from 170.4 MB to 167.3 MB.
+Total: 6.523042 ms (FindLiveObjects: 0.357166 ms CreateObjectMapping: 0.180917 ms MarkObjects: 4.706625 ms  DeleteObjects: 1.278084 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
