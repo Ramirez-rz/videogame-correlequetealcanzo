@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.InputSystem;
+using System.Collections.Generic;
 
 public class UIManager : MonoBehaviour
 {
@@ -31,6 +32,15 @@ public class UIManager : MonoBehaviour
     [SerializeField] private AudioClip song4Clip;
     [SerializeField] private AudioClip song5Clip;
     [SerializeField] private AudioClip song6Clip;
+    [SerializeField] private AudioClip song7Clip;
+    [SerializeField] private AudioClip song8Clip;
+    [SerializeField] private AudioClip song9Clip;
+    [SerializeField] private AudioClip song10Clip;
+    [SerializeField] private AudioClip song11Clip;
+    [SerializeField] private AudioClip song12Clip;
+    [SerializeField] private AudioClip song13Clip;
+    [SerializeField] private AudioClip song14Clip;
+    [SerializeField] private AudioClip song15Clip;
 
     private int wrongAnswers;
     private float normalSpeed;
@@ -45,15 +55,35 @@ public class UIManager : MonoBehaviour
             normalSpeed = playerMovement.moveSpeed;
         }
 
-        songs = new[]
+        List<SongData> configuredSongs = new List<SongData>();
+
+        AddSongIfClipAssigned(configuredSongs, song1Clip, "Safaera", "Dakiti", "Yonaguni", "Moscow Mule", 1);
+        AddSongIfClipAssigned(configuredSongs, song2Clip, "Timber", "Give Me Everything", "Rain Over Me", "Hotel Room Service", 2);
+        AddSongIfClipAssigned(configuredSongs, song3Clip, "Baby", "Sorry", "Beauty and a Beat", "Peaches", 3);
+        AddSongIfClipAssigned(configuredSongs, song4Clip, "Ella Baila Sola", "Lady Gaga", "Rubicon", "Luna", 4);
+        AddSongIfClipAssigned(configuredSongs, song5Clip, "Mi Bello Angel", "Perlas Negras", "Amor Tumbado", "Pacas de Billetes", 2);
+        AddSongIfClipAssigned(configuredSongs, song6Clip, "Tu si sabes quererme", "Nunca es suficiente", "Lo que construimos", "Hasta la Raiz", 4);
+        AddSongIfClipAssigned(configuredSongs, song7Clip, "Un Coco", "Tití Me Pregunto", "Me Porto Bonito", "Neverita", 1);
+        AddSongIfClipAssigned(configuredSongs, song8Clip, "Ch y la Pizza", "Billete Grande", "Oye", "TQM", 3);
+        AddSongIfClipAssigned(configuredSongs, song9Clip, "25/8", "Monaco", "Me Fui de Vacaciones", "Where She Goes", 1);
+        AddSongIfClipAssigned(configuredSongs, song10Clip, "A Mi", "Lo que hay por ahi", "Como dormiste?", "Pa quererte", 2);
+        AddSongIfClipAssigned(configuredSongs, song11Clip, "Las Babys", "Vas a Quedarte", "Superestrella", "Mon Amour", 3);
+        AddSongIfClipAssigned(configuredSongs, song12Clip, "Columbia", "BZRP Music Sessions #52", "Punto G", "Playa del Ingles", 2);
+        AddSongIfClipAssigned(configuredSongs, song13Clip, "Love Story", "Blank Space", "Style", "Shake It Off", 2);
+        AddSongIfClipAssigned(configuredSongs, song14Clip, "Yandel 150", "Nunca y Pico", "Reloj", "Noche de Entierro", 1);
+        AddSongIfClipAssigned(configuredSongs, song15Clip, "En la orilla", "Memorias", "La Inocente", "Reina", 1);
+
+        songs = configuredSongs.ToArray();
+    }
+
+    void AddSongIfClipAssigned(List<SongData> configuredSongs, AudioClip clip, string option1, string option2, string option3, string option4, int correctOption)
+    {
+        if (clip == null)
         {
-            new SongData(song1Clip, "Safaera", "Dakiti", "Yonaguni", "Moscow Mule", 1),
-            new SongData(song2Clip, "Timber", "Give Me Everything", "Rain Over Me", "Hotel Room Service", 2),
-            new SongData(song3Clip, "Baby", "Sorry", "Beauty and a Beat", "Peaches", 3),
-            new SongData(song4Clip, "Ella Baila Sola", "Lady Gaga", "Rubicon", "Luna", 4),
-            new SongData(song5Clip, "Mi Bello Angel", "Perlas Negras", "Amor Tumbado", "Pacas de Billetes", 2),
-            new SongData(song6Clip, "Tu si sabes quererme", "Nunca es suficiente", "Lo que construimos", "Hasta la Raiz", 4)
-        };
+            return;
+        }
+
+        configuredSongs.Add(new SongData(clip, option1, option2, option3, option4, correctOption));
     }
 
     void Start()

@@ -1705,6 +1705,15 @@ MonoBehaviour:
   song4Clip: {fileID: 8300000, guid: 8f01c710f0f374a5fb9b0c56e0bf3fdd, type: 3}
   song5Clip: {fileID: 8300000, guid: 379c0f6e7288e42069d4bdee157e3d0b, type: 3}
   song6Clip: {fileID: 8300000, guid: a738f6d76c8674fb6825a987c19dc71b, type: 3}
+  song7Clip: {fileID: 8300000, guid: a94e4ac36e3c74c31a1d7416aed585c2, type: 3}
+  song8Clip: {fileID: 8300000, guid: 6e49a0d90819c4b6589d321dafa7fdfa, type: 3}
+  song9Clip: {fileID: 8300000, guid: e54ccdb229b7b475ba19ba67f16b09d5, type: 3}
+  song10Clip: {fileID: 8300000, guid: 3138a21a2fdd449558902d451b545816, type: 3}
+  song11Clip: {fileID: 8300000, guid: 150d711f16522417db1def49a242a68f, type: 3}
+  song12Clip: {fileID: 8300000, guid: 5ba3738039f4c4420a783b746ed09119, type: 3}
+  song13Clip: {fileID: 8300000, guid: 36ac7db6adf50423097d0e62459ce5a7, type: 3}
+  song14Clip: {fileID: 8300000, guid: 5e746b5cd41384b01abc028930b5c383, type: 3}
+  song15Clip: {fileID: 8300000, guid: 8328ac00bdad243e6834d7fa695ba507, type: 3}
 --- !u!4 &803683423
 Transform:
   m_ObjectHideFlags: 0
@@ -3158,7 +3167,7 @@ MonoBehaviour:
   - {fileID: 1910586164}
   autoDetectSegmentWidth: 1
   segmentWidth: 10
-  spawnAheadOffset: 20
+  spawnAheadOffset: 15
   recycleOffset: 30
 --- !u!4 &1932479298
 Transform:
