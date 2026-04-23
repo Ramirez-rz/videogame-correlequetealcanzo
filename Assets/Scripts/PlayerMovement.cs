@@ -15,8 +15,14 @@ public class PlayerMovement : MonoBehaviour
         if (rb == null)
         {
             Debug.LogError("PlayerMovement requires a Rigidbody2D on the same GameObject.");
-      
+            return;
         }
+
+        // Estabilidad fisica sin alterar la logica de movimiento.
+        rb.gravityScale = 0f;
+        rb.freezeRotation = true;
+        rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+        rb.interpolation = RigidbodyInterpolation2D.Interpolate;
     }
 
     void Update()
@@ -59,7 +65,6 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
-        rb.angularVelocity = 0f;
         rb.linearVelocity = movementInput * moveSpeed;
     }
 
